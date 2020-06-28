@@ -2930,7 +2930,7 @@ self.instance.move(ePoint(int(deskwidth - newwidth)/2,int(deskheight - newheight
 	</screen>
 	<screen name="Seekbar" position="353,238" zPosition="2" size="574,230" backgroundColor="transparent" flags="wfNoBorder">
 		<widget name="cursor" position="0,0" size="16,230" pixmap="epg/timeline-now_z.png" alphatest="blend" zPosition="6" />
-		<widget name="time" position="0,40" size="574,120" backgroundColor="text-background" foregroundColor="background-text" font="global_large;80" halign="center" transparent="1" valign="center" />
+		<widget name="time" position="125,70" size="324,90" backgroundColor="layer-b-background" foregroundColor="background-text" font="global_large;80" halign="center" valign="center" />
 		<widget source="session.CurrentService" render="Label" position="32,176" size="80,27" font="infobar_text;20" halign="right" valign="bottom" foregroundColor="infobarfont1" backgroundColor="infobarbackground">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
